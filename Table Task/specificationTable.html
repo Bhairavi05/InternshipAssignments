@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specification Table Task</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: darkslategray;
+
+      justify-content: center;
+    }
+
+    .box {
+      margin: 150px;
+
+      width: 50%;
+      height: 300px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+<center>
+  <div class="box">
+
+    <table style="border: 1px solid black;">
+      <tr style="background-color: rgb(22, 224, 224);">
+        <th>Device</th>
+        <th>Brand</th>
+        <th colspan="2">Specifications</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Smartphone</td>
+        <td rowspan="3">Apple</td>
+        <td style="background-color: rgb(255, 170, 0);">Model</td>
+        <td style="background-color: rgb(255, 170, 0);">Storage</td>
+      </tr>
+      <tr>
+        <td>iPhone 15 Pro</td>
+        <td>256GB</td>
+      </tr>
+      <tr>
+        <td>iPhone 16</td>
+        <td>512GB</td>
+      </tr>
+      <tr>
+        <td>Laptop</td>
+        <td>Acer</td>
+        <td colspan="2">15.6" Display</td>
+      </tr>
+      <tr>
+        <td>Tablet</td>
+        <td>iPad Pro</td>
+        <td colspan="2">10.5" Display</td>
+      </tr>
+    </table>
+
+  </div>
+</center>
